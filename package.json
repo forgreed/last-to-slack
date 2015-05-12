@@ -1,0 +1,23 @@
+{
+  "name": "last-to-slack",
+  "version": "1.0.0",
+  "description": "Node.js script to pull top artists from last.fm and post to a specified Slack channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "request": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/forgreed/last-to-slack"
+  },
+  "keywords": [
+    "last.fm",
+    "Slack"
+  ],
+  "author": "Garrett Reed",
+  "license": "MIT"
+}
